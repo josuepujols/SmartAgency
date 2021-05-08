@@ -1,0 +1,435 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.top-margin-lg {
+    margin-top: 60px !important;
+}
+
+
+.top-margin-sm {
+    margin-top: 30px !important;
+}
+
+.top-margin-xs {
+    margin-top: 15px !important;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: white;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.btn-dark {
+    background-color: #1a1a1a;
+    color: white;
+    border: 2px solid #1a1a1a;
+}
+
+.full-width {
+    width: 100%;
+}
+
+a ion-icon {
+    font-size: 22px;
+    color: white;
+}
+
+.text-black {
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.divider {
+    border-bottom: 2px solid #f5f5f5;
+}
+
+section {
+    padding: 20px;
+}
+
+.bg-light-gray {
+    background-color: #f5f5f5;
+}
+
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-transparent:hover {
+    color: white;
+}
+
+#ico {
+    position: absolute;
+    margin-top: 3px;
+    font-size: 17px;
+    margin-left: 10px;
+    color: black;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: #1a1a1a;
+} 
+
+
+.nav-link:hover {
+    color: #1a1a1a;
+}
+
+.logo-brand {
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+
+#hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+#hero p {
+    color: white;
+}
+
+.content-center {
+    max-width: 92%px;
+    margin: 0px 60px auto;
+    text-align: center;
+}
+
+#contenedor {
+    width: 71%;
+    margin: 75px auto;
+}
+
+.portfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0px;
+    border-radius: 2px;
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details h2 {
+    margin-bottom: 0px;
+}
+
+.portfolio-details a h2, .portfolio-details a p {
+    color: white;
+
+}
+
+.portfolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.member-container {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.member-details {
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details ion-icon {
+    padding: 0px 5px;
+    padding-top: 7px;
+}
+
+.pricing-container {
+    margin: 15px 0px;
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plan-light {
+    background-color: white;
+    border: 2px solid #1a1a1a;
+}
+
+
+.plans ul {
+    list-style: square;
+}
+
+.plan-dark {
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    color: white;
+}
+
+.plans h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+.plans span {
+    font-size: 20px;
+}
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+.carousel p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+.carousel-container {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.carousel-indicators li {
+    background-color: #1a1a1a;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0px 8px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    color: white;
+    opacity: 1;
+    width: 5%;
+}
+
+.control-button {
+    background-color: #1a1a1a;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.rating {
+    color: #ffb944;
+    font-size: 26px;
+}
+
+.testimonial-user {
+    max-width: 240px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+
+.testimonial-user span {
+    font-size: 12px;
+}
+
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
+
+.form-control {
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+    height: auto;
+}
+
+.form-control:focus {
+    border: 1px solid #1a1a1a;
+    outline: none;
+    box-shadow: none;
+}
+
+#footer {
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+
+#footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+/*Media queries*/
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .plans {
+        min-width: unset;
+        padding: 40px;
+    }
+
+    .portfolio-details h2 {
+        font-size: 32px;
+    }
+
+    .carousel-item p {
+        font-size: 20px;
+    }
+
+    .footer-menu {
+        display: block !important;
+        padding: 20px 0px !important;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 365px) {
+    h1  {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .plans {
+        padding: 20px;
+    }
+
+    .portfolio-details h2 {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .plans {
+        min-width: unset;
+        padding: 40px 20px;
+    }
+
+    .portfolio-details h2 {
+        font-size: 30px;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: -0.5rem;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
